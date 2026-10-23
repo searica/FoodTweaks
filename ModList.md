@@ -12,6 +12,7 @@
 - [DodgeShortcut](https://thunderstore.io/c/valheim/p/Searica/DodgeShortcut/)
 - [DiscoveryPins](https://thunderstore.io/c/valheim/p/Searica/DiscoveryPins/)
 - [ExplorersVision](https://thunderstore.io/c/valheim/p/Searica/ExplorersVision/)
+- [FoodTweaks](https://thunderstore.io/c/valheim/p/Searica/FoodTweaks/)
 - [FortifySkillsRedux](https://thunderstore.io/c/valheim/p/Searica/FortifySkillsRedux/)
 - [ProjectileTweaks](https://thunderstore.io/c/valheim/p/Searica/ProjectileTweaks/)
 - [SkilledCarryWeight](https://thunderstore.io/c/valheim/p/Searica/SkilledCarryWeight/)
