@@ -26,7 +26,7 @@ namespace FoodTweaks
         internal const string Author = "Searica";
         public const string PluginName = "FoodTweaks";
         public const string PluginGUID = $"{Author}.Valheim.{PluginName}";
-        public const string PluginVersion = "0.1.0";
+        public const string PluginVersion = "0.1.1";
 
         // Use this class to add your own localization to the game
         // https://valheim-modding.github.io/Jotunn/tutorials/localization.html
@@ -168,6 +168,10 @@ namespace FoodTweaks
         [HarmonyPatch(typeof(Player), nameof(Player.GetTotalFoodValue))]
         private static void GetStatsFromFood(Player __instance, float stamina, float eitr)
         {
+            if (!__instance || __instance != Player.m_localPlayer)
+            {
+                return;
+            } 
             StaminaFromFood = stamina - __instance.m_baseStamina;
             EitrFromFood = eitr;
         }

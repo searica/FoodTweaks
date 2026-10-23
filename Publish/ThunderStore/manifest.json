@@ -1,7 +1,7 @@
 ﻿{
   "name": "FoodTweaks",
   "description": "Simple mod that adds configurable bonus stamina and eitr regen to foods that increase your stamina or eitr.",
-  "version_number": "0.1.0",
+  "version_number": "0.1.1",
   "website_url": "https://discord.gg/sFmGTBYN6n",
   "dependencies": [
     "denikson-BepInExPack_Valheim-5.4.2351",
